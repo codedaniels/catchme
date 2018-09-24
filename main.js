@@ -1,4 +1,3 @@
-
 $(document).ready(loadDocument);
 var winningCity;
 var muteVol = 1;
@@ -7,7 +6,6 @@ var foodPic = [];
 var cityInfo;
 
 function loadDocument(){
-
     $('.vol').on('click',function(){
         if($('.material-icons').text()==='volume_up'){
             $('.material-icons').text('volume_off');
@@ -20,7 +18,6 @@ function loadDocument(){
     });
     var airplaneSound = new Audio('audio/airplane.mp3');
     airplaneSound.play();
-
 };
 
 function insertWeatherInfo(cityInfo, hintInfo) {
@@ -135,7 +132,6 @@ function refreshModal(foodPic){
         $(divName).css("background-image", foodPic.shift());
     };
     $('#winning_text').text(cityInfo);
-
 }
 
 function sliceAndSplicedCities(capitalArray, splicedCount){
@@ -162,7 +158,6 @@ function refreshPage(){
     $(".button-text").addClass("btn-warning");
     $(".button-text").removeClass("btn");
     $(".button-text").removeClass("btn-success");
-
 }
 
 function handleButtonClick() {
@@ -190,7 +185,6 @@ function handleButtonClick() {
             refreshPage();
             initMap();
         },500);
-
     }  else {
         $(this).removeClass("btn-warning");
         $(this).addClass("btn");

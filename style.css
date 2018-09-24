@@ -39,7 +39,6 @@ body {
 
 .image-size {
     height: 50vh;
-    /*height: 20em;*/
     object-fit: scale-down;
     margin: auto;
     align-items: center;
@@ -71,12 +70,10 @@ body {
 }
 
 .map-section {
-    /*margin-top: 1em;*/
     width: 100%;
     display: flex;
     justify-content: center;
     height: 45vh;
-    /*height: 20em;*/
 }
 
 #theMap{
@@ -126,8 +123,6 @@ body {
 }
 
 .wikipedia-text-bg {
-    /*background: url("./images/postcard.jpg") no-repeat center;*/
-    /*background-size: cover;*/
     background-color: #F8C471;
 }
 
@@ -157,11 +152,6 @@ div#nomNomPics0, div#nomNomPics1, div#nomNomPics2, div#nomNomPics3 {
     .header-photo {
         display: none;
     }
-
-    /*.postcard {*/
-        /*display: none;*/
-    /*}*/
-
     .vol {
         position: fixed;
         top: 0;
